@@ -1,0 +1,31 @@
+{
+  "name": "bs-source-files",
+  "version": "1.0.0",
+  "description": "Fetches the list of source files from a bucklescript project",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Risto-Stevcev/bs-source-files.git"
+  },
+  "keywords": [
+    "bucklescript",
+    "source",
+    "files"
+  ],
+  "author": "Risto Stevcev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Risto-Stevcev/bs-source-files/issues"
+  },
+  "homepage": "https://github.com/Risto-Stevcev/bs-source-files#readme",
+  "devDependencies": {
+    "tape": "^4.9.1"
+  },
+  "dependencies": {
+    "arr-flatten": "^1.1.0",
+    "globby": "^8.0.1"
+  }
+}
