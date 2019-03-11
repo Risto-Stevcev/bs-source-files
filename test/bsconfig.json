@@ -5,13 +5,8 @@
   "namespace": false,
   "bsc-flags": ["-bs-super-errors"],
   "sources": [{
-    "dir" : "src",
-    "files": [
-      "Result.ml",
-      "Query.ml",
-      "Pool.ml",
-      "Client.ml"
-    ]
+    "dir": "src",
+    "subdirs": "true"
   }, {
     "dir": "test",
     "type": "dev"
